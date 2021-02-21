@@ -67,7 +67,7 @@
 			<form action="/member/resetpw" method="post">
 				<input type="hidden" name="${_csrf.parameterName }" value="${_csrf.token}"/>
 						<div class="form-group">
-						    <span><input readonly type="hidden"  name="id" type="text" class="form-control" value="${id }" id="input-id" style="width: 300px;">${noExist }</span>
+						  <input readonly type="hidden"  name="id" type="text" class="form-control" value="${id }" id="input-id" style="width: 300px;">
 						</div>				
 						<div class="form-group">
 						    <label for="input-pw">비밀번호</label>
